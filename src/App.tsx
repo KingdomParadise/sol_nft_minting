@@ -91,7 +91,7 @@ const App = () => {
       <Header />
       
       <div className="bg-black p-20">
-        <p className="uppercase text-white text-4xl font-bold mb-12">Inking Soon</p>
+        <p className="uppercase text-white text-4xl font-bold mb-12">Presale Inking Now</p>
         <BrowserRouter>
           <Routes>
             <Route path="/" 
@@ -114,11 +114,10 @@ const App = () => {
                 </ThemeProvider>
               } 
             />
-            <Route path="/mint-nft" element={<MintNFT />} />
+            {/* <Route path="/mint-nft" element={<MintNFT />} /> */}
           </Routes>
         </BrowserRouter>
-        <p className="text-white font-bold text-xl mt-12">Sign up for our whitelist in Discord 👾</p>
-        <p className="text-white font-bold text-xl">& Join the Tatts Tribe 💀</p>
+        <p className="mt-10 text-white font-bold text-xl">Join the Tatts Tribe 💀</p>
 
         <div className="flex justify-center pt-16 gap-1">
           <a href="#" className="flex items-center justify-center bg-white  hover:bg-gray-400 rounded-3xl w-12 h-12 mx-1">

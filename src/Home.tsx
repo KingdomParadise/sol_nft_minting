@@ -179,6 +179,8 @@ const Home = (props: HomeProps) => {
         {wallet && <p  className="py-1">Redeemed: {itemsRedeemed}</p>}
 
         {wallet && <p className="pb-3">Remaining: {itemsRemaining}</p>}
+
+        {wallet && <p className="pb-3">NFTATTS: 0.4 SOL</p>}
       </div>
 
       <MintContainer>
